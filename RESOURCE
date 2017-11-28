@@ -1,3 +1,9 @@
+http://www.geeksforgeeks.org/how-arrays-are-passed-to-functions-in-cc/
+
+Job hunting has 6 preparation parts. Each day you have 9:30-12:00, 2-3 hours at night.
+Each preparation has its own RESOURCE file.
+
+
 1. Data structure
 2. Algorithm
 3. Leetcode

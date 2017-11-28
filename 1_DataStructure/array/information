@@ -1,0 +1,37 @@
+1. In C, there is no array boundary check at compilation time.
+   int array[2] = {1,2};
+   printf("%d", array[3]);
+   printf("%d", array[-2]); both compile fine, but at runtime, this is not correct.
+
+2. In C, there is no initialization size error
+   int arr[2] = {1,2,3,4}; are all correct.
+   But in C++, there will be compilation error.
+
+3. Array elements are saved in contiguous memory.
+   if X is the address of arr[] or arr[0], then
+      X + sizeof(X) is the address of arr[1]
+      X + sizeof(X) + sizeof(X) is the address of arr[2]
+
+4. Array is always passed to a function as pointer.
+
+    int arr[] = {1,2,3,4,5}
+    int arr2[] = {6,7,8,9,10}
+
+    fun(arr);
+    fun(arr2)
+
+    void fun(int arr[]);
+    void fun(int *arr); They are all the same.
+
+    char arr[] = "geekgeek";
+    char *arr = "geekgeek";
+    In this case, void fun() will print "g e e k g e e k", all the same.
+
+    char arr[5] = "geeks"; //Correct in C but error in C++
+    char arr[] = {'g', 'e', 'e', 'k', 's'}; // wrong 
+
+
+5. Arithmetic
+
+
+

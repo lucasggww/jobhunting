@@ -1,0 +1,92 @@
+Total 13 days
+Overview:
+
+1. linear Data Strucutre
+http://www.geeksforgeeks.org/overview-of-data-structures-set-1-linear-data-structures/
+    3 days
+    Day 1
+    a. Array
+        Data structure store homogeneous elements at contiguous locations.
+        Accessing time O(1)
+        Search time O(n), if binary O(lgn)
+        Insert time O(n), worst case is insert at the first element
+        Delete time O(n), worst case is delete at the first element.
+    Array, Starts from here:
+    http://www.geeksforgeeks.org/arrays-in-c-language-set-1-introduction/
+    
+    b. Linked List
+        A linear data structure(like arrays) where each element is a seperate object. Each element of a list is
+        comprising of two items: the data structure and a reference to the next node.
+
+        Accessing element: O(n)
+
+    Day 2
+    c. Stack
+        Last in, first out data structure.
+        A collection of elements. With two principal operations: push and pop.
+        Stack can be implemented by both array and linked list.
+        Insert O(1), Delete O(1).
+        Check balanced parenthesis, undo operation, web cache, backspace key operation.
+    d. Queue
+        FIFO, CPU scheduling, Disk scheduling, IO buffers, pipes and file I/O
+
+    Day 3:
+    Summarize
+
+2. Binary Tree, BST, Heap and Hash
+http://www.geeksforgeeks.org/overview-of-data-structures-set-2-binary-tree-bst-heap-and-hash/
+    Unlike linear data structures, binary trees are hierarchical data structures.
+    Binary tree has most 2 children. Connected using links.
+    4 days
+    Day 1
+    a. Binary Tree
+
+    b. Binary Search Tree
+
+    Search: O(h), O(logN)
+    Insert: O(h), Delete: O(h), log(N)
+
+    Self-Balancing BSTs such as AVL trees, Red-Black trees and Splay trees make sure that the height of BST remains O(logN)
+    Extra save space O(n) for pointers.
+
+    BST offers moderate access and search, quicker than list but slower than array.
+
+    Day 2
+    c. Binary Heap
+    Binary heap is a binary tree with the following properties.
+
+    d. Hashing
+    Hash table: An array that stores pointers to record corresponding to a given number.
+    Two technologies to handle collision:
+    Chaining: The idea to make each cell of hash table points to a linked list of records that have same hash function value.
+    Space O(n)
+    Search O(1) average, Worst O(n)
+    Insertion O(1) average, Worst O(n)
+    Deletion O(1) average, Worst O(n)
+
+
+    Day 3
+    Summarize
+
+3. Graph, Trie, Segment Tree and Suffix tree
+http://www.geeksforgeeks.org/overview-of-data-structures-set-3-graph-trie-segment-tree-and-suffix-tree/
+    5 days
+    Day 1
+    a. Graph
+    Day 2
+    b. Trie
+
+    Day 3
+    c. Segment Tree
+
+    Day 4
+    d. Suffix Tree
+
+    Day 5
+    Summarize
+
+4. Abstract Data structure
+http://www.geeksforgeeks.org/abstract-data-types/
+    1 day
+
+
