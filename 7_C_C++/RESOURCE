@@ -1,0 +1,97 @@
+1. void pointer in c.
+    int b;
+    char a = 'x';
+    void *p;
+    p = &b;
+    p = &a; // void pointer can hold address of integer and char.
+    int *x = (int *)malloc(sizeof(int) * n)
+2. qsort() comparator function of qsort() in C
+    struct Student{
+        int age, marks;
+        char name[20];
+    }
+
+    int comparator(const void *p, const void *q){
+        int l = (struct Student *p)->marks;
+        int r = (strucut Student *q)->marks;
+        return l-r;
+    }
+
+    An example:
+    http://www.geeksforgeeks.org/comparator-function-of-qsort-in-c/
+    Sort the array into two parts, first part only contains odd numbers, second part only contains even numbers
+    Odd number are ascending, even numbers are descending.
+
+    int comparator(const void *p, const void *q) {
+        // Get the values by given addresses.
+        int l = *(const *)p;
+        int r = *(const *)q;
+
+        if (l%2 ==0 && r %2 ==0) {
+            return (r-l);
+        }
+        else if (l%2!=0 && r %2 != 0)
+            return l-r; // smaller first, increasing order....
+    }
+
+    int main() {
+        int arr[] = {1,6,5,2,3,9,4,7,8};
+        int size = sizeof(arr)/sizeof(int);
+        qsort((void *)arr, size, sizeof(arr[0]), comparator);
+    }
+
+    int comparator(const void *l, const void *r) {
+        int l_value = *(int *)l; // type converting
+    }
+   3. void pointer can not be dereferenced.
+    int a = 10;
+    void *ptr = &a;
+    printf("%d", *ptr); // this is dereference a void pointer, wrong
+    printf("%d", *(int *)ptr); // this is right;
+   4. #define is preprocessing process, before compilation.
+    difference between #define and const
+    macro argument don't evaluated before macro expansion.
+    #define MUL(a, b) a*b
+    int main() {
+        MUL(2+3, 3+4); //expand: 2+3 * 3+ 4  = 15
+    }
+    ##, concat
+
+    #define square(x) x*x
+    int main() {
+        int x = 36/square(x); --> 36/6*6 = 36, not 1
+
+    }
+    #if VERBOSE >= 2
+    #endif
+
+    __FILE__, __DATE__, __TIME__, __LINE__
+
+    5. const are variables, #define can take parameters, prefer const than define
+    6. static variable are variables that preserve their values even out of their scope.
+        static variable is located at data segment. static variable is initialized as 0
+
+    7. #define concat(a, b) a##b
+        concat(36,12)
+    8. static variable
+        http://www.geeksforgeeks.org/storage-classes-in-c/
+    9. auto, extern, static, register
+
+    10. sort (arr, arr + n, comparator);
+    bool comparator()
+
+    qsort(void *base, size_t length, size_t size, int (*comparator)(const void *, const void *))
+    11. int arr[10], arr, and &arr
+     http://www.geeksforgeeks.org/whats-difference-between-array-and-array-for-int-array5/
+     arr is the address of the first element of arr
+     &arr is the address of the whole array
+
+    12, __FUNC__, __FILE__, __LINE__
+    __FILE__ print the file's whole name, __FUNC__ print the function name, and __LINE__ is number
+    13, Microcontroller vs microprocesser.
+    14. Cache vs TLB(translation lookaside buffer)
+         Cache sits between CPU and main memory. TLB is used in memory and virtual memory.
+    15.
+
+
+

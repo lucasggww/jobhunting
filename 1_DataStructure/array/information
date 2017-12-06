@@ -25,13 +25,51 @@
 
     char arr[] = "geekgeek";
     char *arr = "geekgeek";
+    char *ptr = arr; // Array name is the address of the pointer
     In this case, void fun() will print "g e e k g e e k", all the same.
 
     char arr[5] = "geeks"; //Correct in C but error in C++
-    char arr[] = {'g', 'e', 'e', 'k', 's'}; // wrong 
+    char arr[] = {'g', 'e', 'e', 'k', 's'}; // wrong
 
 
 5. Arithmetic
+    char arr[] = {1,2,3,4,5};
+    char *ptr = arr;
 
+    print *(ptr + 1);
+    print *(ptr + 2);
 
+    int fun(int ptr[]) {
+        int x = 10;
+        ptr = &x;
+        printf(*ptr);
+
+    }
+6. Data, heap and stack.
+Dynamically allocated arrays are allocated memory on heap.
+Static or global variables are on data segment
+Local arrays are on stack segment.
+Memory layout, this is very important.
+    http://www.geeksforgeeks.org/memory-layout-of-c-program/
+
+    find occurance.
+7. fork(), create same process, share the same pc counter, same program, same CPU register
+    but variables are copy, not same
+    for() return negative, 0 or positive number.
+
+    if(fork() == 0)
+        from child
+    else if (fork() > 0)
+        from parent
+8. functions should be declared firstly, them implement.
+    actual parameters, formal parameters.
+    values of actual parameters are copied to formal parameters.
+    fun(&x);
+    void fun(int *x);
+9. When you allocate memory of a structure.
+    malloc(sizeof(*s) + sizeof(char) * strlen(s))
+    s->structure_size = sizeof(*s) + sizeof(char) * strlen(s->strudent_name)
+10. const, extern(this variable is declared elsewhere).
+    static, preserving their values else where.no new memory is needed because they are just
+    allocated once.
 

@@ -1,3 +1,8 @@
+
+0. Technical interview cheat sheet:
+   https://gist.github.com/TSiege/cbb0507082bb18ff7e4b
+1. Big-O Algorithm complexity
+
 Overview:
 
 General algorithms are covered in data structure, here we just emphasis on competitive algorithms.
@@ -17,3 +22,4 @@ Number theory and Other Mathematical
 Geometrical and Network Flow Algorithms
 
 Data Structures
+
