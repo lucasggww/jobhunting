@@ -1,0 +1,61 @@
+1. Advantage:
+    a. Randomly access element in an array. array[j] O(1)
+    b. Better Cache locality performance. Frequency accessing element in the memory.
+
+2. Multiple same type elements.
+3. In C, there is no array boundary check.
+    int arr[2] = {1,2,3,4}; // compiles fine
+    arr[3], arr[-2]; // compiles fine, but out of boundary.
+    Fails in C++
+4. In Java, all array are dynamically allocated.
+    We can find array length by member functions, but sizeof() in C/C++
+    int arr[]
+    The direct superclass of an array type is Object.
+    Object<--Array.
+    size of an array is int, not long or short
+    Java's array is allocated in heap segment.
+    All array are dynamically allocated.
+
+    In C/C++, array is on stack if local, on data segment if global or static, on heap if new() or malloc()
+    In Java, array is always on heap.
+5. Array declaration in Java
+    type var-name[] OR type []var-name
+    type var-name[] = new type[size]
+
+    In Java, type var-name[] is just reference to a variable
+    The actual value is implemented in new() statement.
+    int array[];
+    array = new int[20]; new an array with size of 20. //combining both statements in one
+    int array[] = new int[20];
+
+    type var-name[] = new type[size];
+6. Default array values are 0(int), false(boolean) or null(reference)
+    String var[] = new String[20];
+    double var[] = new double[20];
+    class Student {
+        public int roll_no;
+        public String name;
+        Student(int roll_no, String name){
+            this.roll_no = roll_no;
+            this.name = name;
+        }
+
+    }
+7. ArrayIndexOutOfBoundsException, Compiler throw exception
+    ArrayIndexOutofBoundsException
+
+8. Array are all inherited from Object class.
+    Object() class's only not inherited method is clone()
+9. clone() method in java.
+    clone a copy of Object, Object.clone()
+    Create a new instance of the class of current object, and copy the reference values
+    Test obj = new Test();
+    Test obj2 = obj; // obj2 are reference points to the same location referenced by obj.
+10. Shadow copy just copy the reference, deep copy copy values.
+11. clone() is deep copy.
+12. int arr[] = new int[10] {1,2,3,4,5};
+    int arr2[] = arr.clone();
+
+    int arr[] = {1,2,3,4,5}
+    int cloneArray[] = arr.clone();
+

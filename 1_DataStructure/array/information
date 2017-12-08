@@ -73,3 +73,5 @@ Memory layout, this is very important.
     static, preserving their values else where.no new memory is needed because they are just
     allocated once.
 
+
+

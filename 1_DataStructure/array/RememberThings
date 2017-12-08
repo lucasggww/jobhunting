@@ -1,0 +1,15 @@
+1. Java shadow copy vs deep copy, clone() is deep copy.
+    http://www.geeksforgeeks.org/clone-method-in-java-2/
+2. Java 1-D dimentional clone() is deep copy.
+    arr2 = arr1.clone()
+    arr1 and arr2 have difference memory locations.
+
+
+    multi-dimentional array.clone() is shadow copied.
+
+    int a[] = new int[10]{1,2,3};
+    int b[] = a; //shadow copy, a, b points to the same reference.
+
+    int b[]= new int[](a); //deep copy.
+
+    clone() is deep copy
