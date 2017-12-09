@@ -1,0 +1,3 @@
+1. git branch -r // List all remote branches
+2. git checkout -b LocalName origin/remotebranchname // git pull remote branch to local
+

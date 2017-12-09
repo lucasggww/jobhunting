@@ -1,0 +1,31 @@
+// Search an element in sorted and rotated array.
+// Solution 1.
+// Find the pivot element firstly, the pivot element is the one whose next element is less than it.
+// Then call the binary search on one of the sub-array, if the element is less than the last element
+
+#include <stdio.h>
+
+int findPivot(int arr[], int low, int high) {
+    if (low == high)
+        return low;
+    if (low > high)
+        return -1;
+
+    int mid = low + (high - low)/2;
+    if (mid < high && arr[mid] > arr[mid + 1])
+        return mid;
+    if (mid > low && arr[mid] < arr[mid - 1])
+        return mid - 1;
+    if (arr[0] > arr[mid])
+            return findPivot(arr, low, mid - 1);
+    return findPivot(arr, mid + 1, high);
+}
+
+int main() {
+  int arr[] = {4,5,6,7,8,9,10,3,2,1};
+  int size = strlen(arr)/sizeof(arr[0]);
+  int pivot = findPivot(arr, 0, size - 1);
+
+
+}
+
