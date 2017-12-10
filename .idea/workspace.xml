@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4026053c-d937-4ecc-84e6-5c7cd487a2f9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2_Algorithm/1_array/SearchInRotateSortArray" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/4_SystemDesign/Blogs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/4_SystemDesign/RESOURCE" afterPath="$PROJECT_DIR$/4_SystemDesign/RESOURCE" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -45,16 +46,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RESOURCE" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/7_C_C++/RESOURCE">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="619">
-              <caret line="93" column="7" lean-forward="false" selection-start-line="93" selection-start-column="7" selection-end-line="93" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="information" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/1_DataStructure/array/information">
           <provider selected="true" editor-type-id="text-editor">
@@ -89,7 +80,7 @@
         <entry file="file://$PROJECT_DIR$/2_Algorithm/1_array/SearchInRotateSortArray">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="465">
-              <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -105,11 +96,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RESOURCE" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RESOURCE" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/4_SystemDesign/RESOURCE">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="21" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="21" />
+            <state relative-caret-position="45">
+              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Blogs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/4_SystemDesign/Blogs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="23" lean-forward="false" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -123,7 +124,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/4_SystemDesign/RESOURCE" />
         <option value="$PROJECT_DIR$/5_MachineLearning/RESOURCE" />
         <option value="$PROJECT_DIR$/1_DataStructure/RESOURCE" />
         <option value="$PROJECT_DIR$/1_DataStructure/array/array.c" />
@@ -137,6 +137,8 @@
         <option value="$PROJECT_DIR$/2_Algorithm/1_array/RotateArray" />
         <option value="$PROJECT_DIR$/Calendar" />
         <option value="$PROJECT_DIR$/2_Algorithm/1_array/SearchInRotateSortArray" />
+        <option value="$PROJECT_DIR$/4_SystemDesign/RESOURCE" />
+        <option value="$PROJECT_DIR$/4_SystemDesign/Blogs" />
       </list>
     </option>
   </component>
@@ -905,15 +907,23 @@
     <entry file="file://$PROJECT_DIR$/2_Algorithm/1_array/SearchInRotateSortArray">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
-          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/4_SystemDesign/RESOURCE">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="21" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="21" />
+        <state relative-caret-position="45">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4_SystemDesign/Blogs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="23" lean-forward="false" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
           <folding />
         </state>
       </provider>
