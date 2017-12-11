@@ -21,4 +21,15 @@
         Amazing job and relevant to current position.
         Different stories for different companies and for different jobs.
         Shorter timeline, squeeze your time into short time zone.
-        Consistent, tak
+        Consistent, take 2-3 hours a day, compress the preparation time.
+    Chapter 5: System design.
+        System design is open topic, it's a communication between you and the interviewer.
+        Eg. "Design a web-crawler", focus on overall crawler design, how to detect contents is changed,
+        how to dedup the URLs in detail.
+
+        Measure your capability and improve it.
+        1. Check if it works. 2. check feasibility.  How much efferts do you need to implement it?
+        People and time. 3. Design should be clear. why design so ?
+        2. Do not focus on tools usage, but on how do they design, how do they work?
+            Like distribute workload, aggregate data later,etc.
+            
